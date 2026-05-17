@@ -1,0 +1,38 @@
+# Ignore build outputs and CMake artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/CTestTestfile.cmake
+/Testing/
+/progress.marks
+/Makefile.cmake
+/Makefile2
+/TargetDirectories.txt
+/**/*.dir/
+
+# Common binary/object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.a
+*.lib
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+*.log
+*.tmp
+*.swp
+.DS_Store
+tags
+compile_commands.json
